@@ -143,7 +143,7 @@ async def forceclose_command(_, CallbackQuery):
 @AditiBot.on_message(
     filters.command("sh") & filters.user(OWNER) & ~filters.forwarded & ~filters.via_bot
 )
-async def shellrunner(client: MickeyBot, message: Message):
+async def shellrunner(client: AditiBot, message: Message):
     if len(message.command) < 2:
         return await edit_or_reply(message, text="<b>ᴇxᴀᴍᴩʟᴇ :</b>\n/sh git pull")
     text = message.text.split(None, 1)[1]
