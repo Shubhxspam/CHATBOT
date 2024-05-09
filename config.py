@@ -15,9 +15,6 @@ OWNER_USERNAME = getenv("OWNER_USERNAME", "llxHKxll")
 
 # Random Start Images
 IMG = [
-    "https://te.legra.ph/file/5bf629d10afd4af953585.jpg",
-    "https://te.legra.ph/file/7a321b99fe99d9d8b5117.jpg",
-    "https://te.legra.ph/file/c482a7e55b459ffe07502.jpg",
     "https://telegra.ph//file/0879fbdb307005c1fa8ab.jpg",
     "https://telegra.ph//file/19e3a9d5c0985702497fb.jpg",
     "https://telegra.ph//file/b5fa277081dddbddd0b12.jpg",
@@ -60,9 +57,9 @@ IMG = [
 
 # Random Stickers
 STICKER = [
-    "CAACAgQAAxkBAALRi2NZXUgjZCT775L5Nr0XrLbQ6XIpAAK_EQACpvFxHq2xh5JRVJNrKgQ",
-    "CAACAgQAAxkBAALRjGNZXUs6YPggISBdtg4nXaU0vjNzAALqCwACbCIRU61ZQKi3F88DKgQ",
-    "CAACAgQAAxkBAALRjWNZXUvETcfHR2Yi9ftTQLLP2uD8AAIVDAAC1SMQU-QrCHEcbz8rKgQ",
+    "CAACAgUAAxkBAAJkWWY81Wzz8PCLXy4KgL9NVMIfbkgSAAIKBQACJ1-wVBW6nNZ2ok2CNQQ",
+    "CAACAgUAAxkBAAJkXWY81YbqWpcbxZvcAxG1kO6d0qvTAAJrBQACcYCoVIzWJCf08lGTNQQ",
+    "CAACAgUAAxkBAAJkZWY81ZkUB0wxuOllhjZ7Eed8ecM5AAKfEgACQ7qxVCmX2ikK5S3aNQQ",
 ]
 
 
