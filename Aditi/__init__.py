@@ -25,7 +25,7 @@ OWNER = config.OWNER_ID
 class AditiBot(Client):
     def __init__(self):
         super().__init__(
-            name="Snehabot",
+            name="Aditibot",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             lang_code="en",
