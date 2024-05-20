@@ -17,10 +17,10 @@ async def anony_boot():
     for all_module in ALL_MODULES:
         importlib.import_module("Aditi.modules." + all_module)
 
-    LOGGER.info(f"@{AditiBot.username} Started.")
+    LOGGER.info(f"@{SnehaBot.username} Started.")
     await idle()
 
 
 if __name__ == "__main__":
     asyncio.get_event_loop().run_until_complete(anony_boot())
-    LOGGER.info("Stopping Aditi Bot...")
+    LOGGER.info("Stopping Sneha Bot...")
