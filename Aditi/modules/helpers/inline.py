@@ -12,7 +12,7 @@ DEV_OP = [
     [
         InlineKeyboardButton(
             text="🧸 ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴀ ᴄʜᴀᴛ 🧸",
-            url=f"https://t.me/{AditiBot.username}?startgroup=true",
+            url=f"https://t.me/Snehaxprobot?startgroup=true",
         ),
     ],
     [
@@ -28,7 +28,7 @@ PNG_BTN = [
     [
         InlineKeyboardButton(
             text="🧸 ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴀ ᴄʜᴀᴛ 🧸",
-            url=f"https://t.me/{AditiBot.username}?startgroup=true",
+            url=f"https://t.me/Snehaxprobot?startgroup=true",
         ),
     ],
     [
@@ -107,7 +107,7 @@ HELP_START = [
 HELP_BUTN = [
     [
         InlineKeyboardButton(
-            text="🚀 ʜᴇʟᴘ 🚀", url=f"https://t.me/{AditiBot.username}?start=help"
+            text="🚀 ʜᴇʟᴘ 🚀", url=f"https://t.me/Snehaxprobot?start=help"
         ),
         InlineKeyboardButton(text="🐳 ᴄʟᴏsᴇ 🐳", callback_data="CLOSE"),
     ],
