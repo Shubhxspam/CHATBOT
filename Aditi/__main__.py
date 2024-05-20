@@ -17,7 +17,7 @@ async def anony_boot():
     for all_module in ALL_MODULES:
         importlib.import_module("Aditi.modules." + all_module)
 
-    LOGGER.info(f"@{SnehaBot.username} Started.")
+    LOGGER.info(f"@snehaxprobot Started.")
     await idle()
 
 
