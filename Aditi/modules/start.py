@@ -21,7 +21,7 @@ from Aditi.modules.helpers import (
 )
 
 
-@AditiBot.on_cmd(["cstart", "aistart"])
+@AditiBot.on_cmd(["start", "aistart"])
 async def start(_, m: Message):
     if m.chat.type == ChatType.PRIVATE:
         accha = await m.reply_text(
