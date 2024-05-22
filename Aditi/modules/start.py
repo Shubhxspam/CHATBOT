@@ -53,7 +53,7 @@ async def start(_, m: Message):
         await add_served_chat(m.chat.id)
 
 
-@AditiBot.on_cmd("help")
+@AditiBot.on_cmd("chelp")
 async def help(client: AditiBot, m: Message):
     if m.chat.type == ChatType.PRIVATE:
         hmm = await m.reply_photo(
@@ -71,7 +71,7 @@ async def help(client: AditiBot, m: Message):
         await add_served_chat(m.chat.id)
 
 
-@AditiBot.on_cmd("repo")
+@AditiBot.on_cmd("rrepo")
 async def repo(_, m: Message):
     await m.reply_text(
         text=SOURCE_READ,
